@@ -1,0 +1,59 @@
+.parent-start {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+
+  background: var(--bg);
+}
+.start-container {
+  height: 550px;
+  width: 90%;
+
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+
+  position: relative;
+}
+.start-container > * {
+  margin: 10px;
+}
+.start-button {
+  height: 45px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.start-btn-socialM {
+  background: var(--white);
+  color: var(--bg);
+}
+.start-btn-signup {
+  background: var(--main);
+  color: var(--white);
+}
+.start-icons {
+  position: absolute;
+  left: 0;
+  font-size: 1.5em;
+  padding: 20px;
+}
+.start-text {
+  position: absolute;
+  top: 0;
+  color: var(--white);
+}
+.start-havean {
+  color: var(--white);
+}
+.start-havean > * {
+  color: var(--main);
+}

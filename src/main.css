@@ -1,0 +1,23 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+/* Default */
+*{
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Raleway', sans-serif;
+}
+/* Colors */
+:root{
+  --bg: #29292C;
+  --dark: #414044;
+  --hlDark:#868091;
+  --main: #6665FA;
+  --white: white;
+}
+/* Styles */
+@import './loader/loader.css';
+@import './start/start.css';
+@import './signin-signup/signin/signin.css';
+@import './signin-signup/signup/signup.css';
